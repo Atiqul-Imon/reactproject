@@ -2,13 +2,11 @@ import Hello from "./components/Hello";
 import Test from "./components/Test";
 import City from "./components/City";
 import Fruits from "./components/Fruits";
-
 import Players from "./components/Players";
 import Actors from "./components/Actors";
 import Newfruits from "./components/Newfruits";
 import Persons from "./components/Persons";
 import Usercart from "./components/Usercart";
-
 import Header from "./components/Header";
 import Conditional from "./components/Conditional";
 import Footer from "./components/Footer";
@@ -31,15 +29,14 @@ function App() {
     population: "2 corer",
   };
 
-  
   return (
     <div>
-     <Header/>
+      <div>
+        <Header />
+      </div>
 
       <div className="container">
-
-       <LogInOut/>
-
+        <LogInOut />
         <Hello person={person} />
         <Test car={car} />
         <City city={city} />
@@ -49,10 +46,8 @@ function App() {
         <Newfruits />
         <Persons />
         <Usercart />
-        
-        <Conditional/>
-        <Footer/>
-        
+        <Conditional />
+        <Footer />
       </div>
     </div>
   );
