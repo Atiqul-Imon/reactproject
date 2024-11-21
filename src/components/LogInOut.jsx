@@ -4,15 +4,15 @@ export default function LogInOut() {
   if (loggedIn) {
     return (
       <div>
-        <h2 class="text-success">You are logged in</h2>
-        <button type="button" class="btn btn-primary">Logout</button>
+        <h2 className="text-success">You are logged in</h2>
+        <button type="button" className="btn btn-primary">Logout</button>
       </div>
     );
   } else {
     return (
       <div>
-        <h2 class="text-danger">Please sign in</h2>
-        <button type="button" class="btn btn-primary">Login</button>
+        <h2 className="text-danger">Please sign in</h2>
+        <button type="button" className="btn btn-primary">Login</button>
       </div>
     );
   }

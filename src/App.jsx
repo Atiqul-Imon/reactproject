@@ -11,6 +11,7 @@ import Header from "./components/Header";
 import Conditional from "./components/Conditional";
 import Footer from "./components/Footer";
 import LogInOut from "./components/LogInOut";
+import Clothes from "./components/Clothes";
 
 function App() {
   const person = {
@@ -36,6 +37,7 @@ function App() {
       </div>
 
       <div className="container">
+        <Clothes/>
         <LogInOut />
         <Hello person={person} />
         <Test car={car} />
