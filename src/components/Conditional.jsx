@@ -1,10 +1,5 @@
 export default function Conditional() {
-    const display = false;
-  
-    if (display) {
-      return <h2>Message is false</h2>;
-    } else {
-      return <h2>Message is true</h2>;
-    }
-  }
-  
+  const display = false;
+  let text = display ? "The statement is Right" : "The statement is wrong";
+  return text;
+}
