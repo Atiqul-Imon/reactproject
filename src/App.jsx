@@ -11,6 +11,8 @@ import Usercart from "./components/Usercart";
 
 import Header from "./components/Header";
 import Conditional from "./components/Conditional";
+import Footer from "./components/Footer";
+import LogInOut from "./components/LogInOut";
 
 function App() {
   const person = {
@@ -35,6 +37,9 @@ function App() {
      <Header/>
 
       <div className="container">
+
+       <LogInOut/>
+
         <Hello person={person} />
         <Test car={car} />
         <City city={city} />
@@ -46,6 +51,7 @@ function App() {
         <Usercart />
         
         <Conditional/>
+        <Footer/>
         
       </div>
     </div>
