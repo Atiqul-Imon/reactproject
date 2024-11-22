@@ -14,6 +14,10 @@ import LogInOut from "./components/LogInOut";
 import Clothes from "./components/Clothes";
 import Counter from "./components/Counter";
 
+import React from "react";
+import Carousel from "./components/Carosuel";
+
+
 function App() {
   const person = {
     name: "Kate",
@@ -36,7 +40,12 @@ function App() {
       <div>
         <Header />
       </div>
+      <div>
 
+      <Carousel/>
+
+      </div>
+      
       <div className="container">
         <Counter/> 
 
