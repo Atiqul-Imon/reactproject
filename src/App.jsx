@@ -12,6 +12,7 @@ import Conditional from "./components/Conditional";
 import Footer from "./components/Footer";
 import LogInOut from "./components/LogInOut";
 import Clothes from "./components/Clothes";
+import Counter from "./components/Counter";
 
 function App() {
   const person = {
@@ -37,6 +38,8 @@ function App() {
       </div>
 
       <div className="container">
+        <Counter/> 
+
         <Clothes/>
         <LogInOut />
         <Hello person={person} />
